@@ -52,10 +52,10 @@
 }
 
 .container.posts {
-  grid-template-columns: auto minmax(200px, 8em);
+  grid-template-columns: auto 200px;
 
   @media screen and (width <= 924px) {
-    grid-template-columns: auto minmax(200px, auto);
+    grid-template-columns: 1fr;
   }
 
   .post-notice {
